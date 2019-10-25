@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tan/Documents/linux imbed/linux_api_test/file_property/scandir.c
+unistd.h
+-
+sys/types.h
+-
+fcntl.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+errno.h
+-
+dirent.h
+-
+

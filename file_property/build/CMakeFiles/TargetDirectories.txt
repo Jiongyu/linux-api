@@ -1,0 +1,5 @@
+/home/tan/Documents/linux imbed/linux_api_test/file_property/build/CMakeFiles/edit_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/file_property/build/CMakeFiles/stat_test.dir
+/home/tan/Documents/linux imbed/linux_api_test/file_property/build/CMakeFiles/rebuild_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/file_property/build/CMakeFiles/readir.dir
+/home/tan/Documents/linux imbed/linux_api_test/file_property/build/CMakeFiles/scandir.dir

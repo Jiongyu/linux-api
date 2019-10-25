@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/scandir.dir/scandir.c.o  -o scandir -rdynamic 

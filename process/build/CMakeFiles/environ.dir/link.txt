@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/environ.dir/environ.c.o  -o environ -rdynamic 

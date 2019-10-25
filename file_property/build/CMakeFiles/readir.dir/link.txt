@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/readir.dir/readir.c.o  -o readir -rdynamic 

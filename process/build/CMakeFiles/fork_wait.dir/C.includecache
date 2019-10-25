@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tan/Documents/linux imbed/linux_api_test/process/fork_wait.c
+unistd.h
+-
+stdio.h
+-
+error.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+stdlib.h
+-
+

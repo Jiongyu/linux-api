@@ -1,0 +1,5 @@
+/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles/environ.dir
+/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles/edit_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles/fork.dir
+/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles/fork_wait.dir
+/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles/rebuild_cache.dir

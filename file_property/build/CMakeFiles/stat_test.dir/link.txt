@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/stat_test.dir/stat_test.c.o  -o stat_test -rdynamic 

@@ -1,0 +1,4 @@
+/home/tan/Documents/linux imbed/linux_api_test/exec/build/CMakeFiles/edit_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/exec/build/CMakeFiles/rebuild_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/exec/build/CMakeFiles/exec.dir
+/home/tan/Documents/linux imbed/linux_api_test/exec/build/CMakeFiles/exec_demo.dir
