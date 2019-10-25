@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/daemon_process.dir/daemon_process.c.o  -o daemon_process -rdynamic 

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/home/tan/Documents/linux imbed/linux_api_test/process/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -148,6 +148,46 @@ fork_wait: cmake_check_build_system
 fork_wait/fast:
 	$(MAKE) -f CMakeFiles/fork_wait.dir/build.make CMakeFiles/fork_wait.dir/build
 .PHONY : fork_wait/fast
+
+#=============================================================================
+# Target rules for targets named daemon_process
+
+# Build rule for target.
+daemon_process: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 daemon_process
+.PHONY : daemon_process
+
+# fast build rule for target.
+daemon_process/fast:
+	$(MAKE) -f CMakeFiles/daemon_process.dir/build.make CMakeFiles/daemon_process.dir/build
+.PHONY : daemon_process/fast
+
+daemon_process.o: daemon_process.c.o
+
+.PHONY : daemon_process.o
+
+# target to build an object file
+daemon_process.c.o:
+	$(MAKE) -f CMakeFiles/daemon_process.dir/build.make CMakeFiles/daemon_process.dir/daemon_process.c.o
+.PHONY : daemon_process.c.o
+
+daemon_process.i: daemon_process.c.i
+
+.PHONY : daemon_process.i
+
+# target to preprocess a source file
+daemon_process.c.i:
+	$(MAKE) -f CMakeFiles/daemon_process.dir/build.make CMakeFiles/daemon_process.dir/daemon_process.c.i
+.PHONY : daemon_process.c.i
+
+daemon_process.s: daemon_process.c.s
+
+.PHONY : daemon_process.s
+
+# target to generate assembly for a file
+daemon_process.c.s:
+	$(MAKE) -f CMakeFiles/daemon_process.dir/build.make CMakeFiles/daemon_process.dir/daemon_process.c.s
+.PHONY : daemon_process.c.s
 
 environ.o: environ.c.o
 
@@ -236,11 +276,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... environ"
 	@echo "... edit_cache"
 	@echo "... fork"
 	@echo "... fork_wait"
-	@echo "... rebuild_cache"
+	@echo "... daemon_process"
+	@echo "... daemon_process.o"
+	@echo "... daemon_process.i"
+	@echo "... daemon_process.s"
 	@echo "... environ.o"
 	@echo "... environ.i"
 	@echo "... environ.s"

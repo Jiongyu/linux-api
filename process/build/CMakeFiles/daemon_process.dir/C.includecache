@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tan/Documents/linux imbed/linux_api_test/process/daemon_process.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+error.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+

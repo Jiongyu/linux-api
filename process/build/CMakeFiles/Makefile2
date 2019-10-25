@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/home/tan/Documents/linux imbed/linux_api_test/process/build
 CMakeFiles/environ.dir/all:
 	$(MAKE) -f CMakeFiles/environ.dir/build.make CMakeFiles/environ.dir/depend
 	$(MAKE) -f CMakeFiles/environ.dir/build.make CMakeFiles/environ.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" --progress-num=1,2 "Built target environ"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" --progress-num=3,4 "Built target environ"
 .PHONY : CMakeFiles/environ.dir/all
 
 # Include target in all.
@@ -103,7 +103,7 @@ clean: CMakeFiles/environ.dir/clean
 CMakeFiles/fork.dir/all:
 	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/depend
 	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" --progress-num=3,4 "Built target fork"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" --progress-num=5,6 "Built target fork"
 .PHONY : CMakeFiles/fork.dir/all
 
 # Include target in all.
@@ -140,7 +140,7 @@ clean: CMakeFiles/fork.dir/clean
 CMakeFiles/fork_wait.dir/all:
 	$(MAKE) -f CMakeFiles/fork_wait.dir/build.make CMakeFiles/fork_wait.dir/depend
 	$(MAKE) -f CMakeFiles/fork_wait.dir/build.make CMakeFiles/fork_wait.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" --progress-num=5,6 "Built target fork_wait"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" --progress-num=7,8 "Built target fork_wait"
 .PHONY : CMakeFiles/fork_wait.dir/all
 
 # Include target in all.
@@ -167,6 +167,43 @@ CMakeFiles/fork_wait.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/fork_wait.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/daemon_process.dir
+
+# All Build rule for target.
+CMakeFiles/daemon_process.dir/all:
+	$(MAKE) -f CMakeFiles/daemon_process.dir/build.make CMakeFiles/daemon_process.dir/depend
+	$(MAKE) -f CMakeFiles/daemon_process.dir/build.make CMakeFiles/daemon_process.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" --progress-num=1,2 "Built target daemon_process"
+.PHONY : CMakeFiles/daemon_process.dir/all
+
+# Include target in all.
+all: CMakeFiles/daemon_process.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/daemon_process.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/daemon_process.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/process/build/CMakeFiles" 0
+.PHONY : CMakeFiles/daemon_process.dir/rule
+
+# Convenience name for target.
+daemon_process: CMakeFiles/daemon_process.dir/rule
+
+.PHONY : daemon_process
+
+# clean rule for target.
+CMakeFiles/daemon_process.dir/clean:
+	$(MAKE) -f CMakeFiles/daemon_process.dir/build.make CMakeFiles/daemon_process.dir/clean
+.PHONY : CMakeFiles/daemon_process.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/daemon_process.dir/clean
 
 .PHONY : clean
 

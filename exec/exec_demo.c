@@ -22,16 +22,18 @@ int main(int argc, char const *argv[])
         
         /*ls -l -a */
         // execl("/bin/ls","ls","-l","-a",NULL);
-        // execlp("/bin/ls","ls","-l","-a",NULL);
+        // execlp("ls","ls","-l","-a",NULL);
 
         // char *const arg[] = {"ls","-l","-a",NULL};
         // execv("/bin/ls",arg);
         // execvp("ls",arg);
 
-        /* execle operate  programm */
+        /* execle operate user programm */
         char *const envp[] = {"name = scorpio","host=192.168.6.200",NULL};
-        execle("./exec","exec",NULL,envp);
+        // execle("./exec","exec",NULL,envp);
         // execl("exec","aaaa","bbbb",NULL);
+
+        system("ls -l -a");
 
         exit(0);
     }else if (pid > 0 )

@@ -8,3 +8,6 @@ add_executable(environ environ.c)
 add_executable(fork fork.c)
 
 add_executable(fork_wait fork_wait.c)
+
+add_executable(daemon_process daemon_process.c)
+

@@ -44,4 +44,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/environ.dir/DependInfo.cmake"
   "CMakeFiles/fork.dir/DependInfo.cmake"
   "CMakeFiles/fork_wait.dir/DependInfo.cmake"
+  "CMakeFiles/daemon_process.dir/DependInfo.cmake"
   )
