@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/block_io.dir/block_io.c.o  -o block_io -rdynamic 

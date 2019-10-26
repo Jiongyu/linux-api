@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/block_mouse.dir/block_mouse.c.o  -o block_mouse -rdynamic 
