@@ -60,13 +60,161 @@ CMAKE_SOURCE_DIR = "/home/tan/Documents/linux imbed/linux_api_test/file_io"
 CMAKE_BINARY_DIR = "/home/tan/Documents/linux imbed/linux_api_test/file_io/build"
 
 #=============================================================================
+# Target rules for target CMakeFiles/asynchronous_communication.dir
+
+# All Build rule for target.
+CMakeFiles/asynchronous_communication.dir/all:
+	$(MAKE) -f CMakeFiles/asynchronous_communication.dir/build.make CMakeFiles/asynchronous_communication.dir/depend
+	$(MAKE) -f CMakeFiles/asynchronous_communication.dir/build.make CMakeFiles/asynchronous_communication.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=1,2 "Built target asynchronous_communication"
+.PHONY : CMakeFiles/asynchronous_communication.dir/all
+
+# Include target in all.
+all: CMakeFiles/asynchronous_communication.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/asynchronous_communication.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/asynchronous_communication.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" 0
+.PHONY : CMakeFiles/asynchronous_communication.dir/rule
+
+# Convenience name for target.
+asynchronous_communication: CMakeFiles/asynchronous_communication.dir/rule
+
+.PHONY : asynchronous_communication
+
+# clean rule for target.
+CMakeFiles/asynchronous_communication.dir/clean:
+	$(MAKE) -f CMakeFiles/asynchronous_communication.dir/build.make CMakeFiles/asynchronous_communication.dir/clean
+.PHONY : CMakeFiles/asynchronous_communication.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/asynchronous_communication.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reuse_io_poll.dir
+
+# All Build rule for target.
+CMakeFiles/reuse_io_poll.dir/all:
+	$(MAKE) -f CMakeFiles/reuse_io_poll.dir/build.make CMakeFiles/reuse_io_poll.dir/depend
+	$(MAKE) -f CMakeFiles/reuse_io_poll.dir/build.make CMakeFiles/reuse_io_poll.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=13,14 "Built target reuse_io_poll"
+.PHONY : CMakeFiles/reuse_io_poll.dir/all
+
+# Include target in all.
+all: CMakeFiles/reuse_io_poll.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reuse_io_poll.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/reuse_io_poll.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" 0
+.PHONY : CMakeFiles/reuse_io_poll.dir/rule
+
+# Convenience name for target.
+reuse_io_poll: CMakeFiles/reuse_io_poll.dir/rule
+
+.PHONY : reuse_io_poll
+
+# clean rule for target.
+CMakeFiles/reuse_io_poll.dir/clean:
+	$(MAKE) -f CMakeFiles/reuse_io_poll.dir/build.make CMakeFiles/reuse_io_poll.dir/clean
+.PHONY : CMakeFiles/reuse_io_poll.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/reuse_io_poll.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reuse_io_select.dir
+
+# All Build rule for target.
+CMakeFiles/reuse_io_select.dir/all:
+	$(MAKE) -f CMakeFiles/reuse_io_select.dir/build.make CMakeFiles/reuse_io_select.dir/depend
+	$(MAKE) -f CMakeFiles/reuse_io_select.dir/build.make CMakeFiles/reuse_io_select.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=15,16 "Built target reuse_io_select"
+.PHONY : CMakeFiles/reuse_io_select.dir/all
+
+# Include target in all.
+all: CMakeFiles/reuse_io_select.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reuse_io_select.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/reuse_io_select.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" 0
+.PHONY : CMakeFiles/reuse_io_select.dir/rule
+
+# Convenience name for target.
+reuse_io_select: CMakeFiles/reuse_io_select.dir/rule
+
+.PHONY : reuse_io_select
+
+# clean rule for target.
+CMakeFiles/reuse_io_select.dir/clean:
+	$(MAKE) -f CMakeFiles/reuse_io_select.dir/build.make CMakeFiles/reuse_io_select.dir/clean
+.PHONY : CMakeFiles/reuse_io_select.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/reuse_io_select.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/concurrent_io_two_process.dir
+
+# All Build rule for target.
+CMakeFiles/concurrent_io_two_process.dir/all:
+	$(MAKE) -f CMakeFiles/concurrent_io_two_process.dir/build.make CMakeFiles/concurrent_io_two_process.dir/depend
+	$(MAKE) -f CMakeFiles/concurrent_io_two_process.dir/build.make CMakeFiles/concurrent_io_two_process.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=9,10 "Built target concurrent_io_two_process"
+.PHONY : CMakeFiles/concurrent_io_two_process.dir/all
+
+# Include target in all.
+all: CMakeFiles/concurrent_io_two_process.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/concurrent_io_two_process.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/concurrent_io_two_process.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" 0
+.PHONY : CMakeFiles/concurrent_io_two_process.dir/rule
+
+# Convenience name for target.
+concurrent_io_two_process: CMakeFiles/concurrent_io_two_process.dir/rule
+
+.PHONY : concurrent_io_two_process
+
+# clean rule for target.
+CMakeFiles/concurrent_io_two_process.dir/clean:
+	$(MAKE) -f CMakeFiles/concurrent_io_two_process.dir/build.make CMakeFiles/concurrent_io_two_process.dir/clean
+.PHONY : CMakeFiles/concurrent_io_two_process.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/concurrent_io_two_process.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/block_mouse.dir
 
 # All Build rule for target.
 CMakeFiles/block_mouse.dir/all:
 	$(MAKE) -f CMakeFiles/block_mouse.dir/build.make CMakeFiles/block_mouse.dir/depend
 	$(MAKE) -f CMakeFiles/block_mouse.dir/build.make CMakeFiles/block_mouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=3,4 "Built target block_mouse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=5,6 "Built target block_mouse"
 .PHONY : CMakeFiles/block_mouse.dir/all
 
 # Include target in all.
@@ -103,7 +251,7 @@ clean: CMakeFiles/block_mouse.dir/clean
 CMakeFiles/concurrent_io.dir/all:
 	$(MAKE) -f CMakeFiles/concurrent_io.dir/build.make CMakeFiles/concurrent_io.dir/depend
 	$(MAKE) -f CMakeFiles/concurrent_io.dir/build.make CMakeFiles/concurrent_io.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=5,6 "Built target concurrent_io"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=7,8 "Built target concurrent_io"
 .PHONY : CMakeFiles/concurrent_io.dir/all
 
 # Include target in all.
@@ -140,7 +288,7 @@ clean: CMakeFiles/concurrent_io.dir/clean
 CMakeFiles/demo.dir/all:
 	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/depend
 	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=7,8 "Built target demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=11,12 "Built target demo"
 .PHONY : CMakeFiles/demo.dir/all
 
 # Include target in all.
@@ -177,7 +325,7 @@ clean: CMakeFiles/demo.dir/clean
 CMakeFiles/block_keyboard.dir/all:
 	$(MAKE) -f CMakeFiles/block_keyboard.dir/build.make CMakeFiles/block_keyboard.dir/depend
 	$(MAKE) -f CMakeFiles/block_keyboard.dir/build.make CMakeFiles/block_keyboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=1,2 "Built target block_keyboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/tan/Documents/linux imbed/linux_api_test/file_io/build/CMakeFiles" --progress-num=3,4 "Built target block_keyboard"
 .PHONY : CMakeFiles/block_keyboard.dir/all
 
 # Include target in all.

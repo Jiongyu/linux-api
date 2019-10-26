@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named asynchronous_communication
+
+# Build rule for target.
+asynchronous_communication: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 asynchronous_communication
+.PHONY : asynchronous_communication
+
+# fast build rule for target.
+asynchronous_communication/fast:
+	$(MAKE) -f CMakeFiles/asynchronous_communication.dir/build.make CMakeFiles/asynchronous_communication.dir/build
+.PHONY : asynchronous_communication/fast
+
+#=============================================================================
+# Target rules for targets named reuse_io_poll
+
+# Build rule for target.
+reuse_io_poll: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reuse_io_poll
+.PHONY : reuse_io_poll
+
+# fast build rule for target.
+reuse_io_poll/fast:
+	$(MAKE) -f CMakeFiles/reuse_io_poll.dir/build.make CMakeFiles/reuse_io_poll.dir/build
+.PHONY : reuse_io_poll/fast
+
+#=============================================================================
+# Target rules for targets named reuse_io_select
+
+# Build rule for target.
+reuse_io_select: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reuse_io_select
+.PHONY : reuse_io_select
+
+# fast build rule for target.
+reuse_io_select/fast:
+	$(MAKE) -f CMakeFiles/reuse_io_select.dir/build.make CMakeFiles/reuse_io_select.dir/build
+.PHONY : reuse_io_select/fast
+
+#=============================================================================
+# Target rules for targets named concurrent_io_two_process
+
+# Build rule for target.
+concurrent_io_two_process: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 concurrent_io_two_process
+.PHONY : concurrent_io_two_process
+
+# fast build rule for target.
+concurrent_io_two_process/fast:
+	$(MAKE) -f CMakeFiles/concurrent_io_two_process.dir/build.make CMakeFiles/concurrent_io_two_process.dir/build
+.PHONY : concurrent_io_two_process/fast
+
+#=============================================================================
 # Target rules for targets named block_mouse
 
 # Build rule for target.
@@ -161,6 +213,33 @@ block_keyboard: cmake_check_build_system
 block_keyboard/fast:
 	$(MAKE) -f CMakeFiles/block_keyboard.dir/build.make CMakeFiles/block_keyboard.dir/build
 .PHONY : block_keyboard/fast
+
+asynchronous_communication.o: asynchronous_communication.c.o
+
+.PHONY : asynchronous_communication.o
+
+# target to build an object file
+asynchronous_communication.c.o:
+	$(MAKE) -f CMakeFiles/asynchronous_communication.dir/build.make CMakeFiles/asynchronous_communication.dir/asynchronous_communication.c.o
+.PHONY : asynchronous_communication.c.o
+
+asynchronous_communication.i: asynchronous_communication.c.i
+
+.PHONY : asynchronous_communication.i
+
+# target to preprocess a source file
+asynchronous_communication.c.i:
+	$(MAKE) -f CMakeFiles/asynchronous_communication.dir/build.make CMakeFiles/asynchronous_communication.dir/asynchronous_communication.c.i
+.PHONY : asynchronous_communication.c.i
+
+asynchronous_communication.s: asynchronous_communication.c.s
+
+.PHONY : asynchronous_communication.s
+
+# target to generate assembly for a file
+asynchronous_communication.c.s:
+	$(MAKE) -f CMakeFiles/asynchronous_communication.dir/build.make CMakeFiles/asynchronous_communication.dir/asynchronous_communication.c.s
+.PHONY : asynchronous_communication.c.s
 
 block_keyboard.o: block_keyboard.c.o
 
@@ -243,6 +322,33 @@ concurrent_io.c.s:
 	$(MAKE) -f CMakeFiles/concurrent_io.dir/build.make CMakeFiles/concurrent_io.dir/concurrent_io.c.s
 .PHONY : concurrent_io.c.s
 
+concurrent_io_two_process.o: concurrent_io_two_process.c.o
+
+.PHONY : concurrent_io_two_process.o
+
+# target to build an object file
+concurrent_io_two_process.c.o:
+	$(MAKE) -f CMakeFiles/concurrent_io_two_process.dir/build.make CMakeFiles/concurrent_io_two_process.dir/concurrent_io_two_process.c.o
+.PHONY : concurrent_io_two_process.c.o
+
+concurrent_io_two_process.i: concurrent_io_two_process.c.i
+
+.PHONY : concurrent_io_two_process.i
+
+# target to preprocess a source file
+concurrent_io_two_process.c.i:
+	$(MAKE) -f CMakeFiles/concurrent_io_two_process.dir/build.make CMakeFiles/concurrent_io_two_process.dir/concurrent_io_two_process.c.i
+.PHONY : concurrent_io_two_process.c.i
+
+concurrent_io_two_process.s: concurrent_io_two_process.c.s
+
+.PHONY : concurrent_io_two_process.s
+
+# target to generate assembly for a file
+concurrent_io_two_process.c.s:
+	$(MAKE) -f CMakeFiles/concurrent_io_two_process.dir/build.make CMakeFiles/concurrent_io_two_process.dir/concurrent_io_two_process.c.s
+.PHONY : concurrent_io_two_process.c.s
+
 demo.o: demo.c.o
 
 .PHONY : demo.o
@@ -270,18 +376,79 @@ demo.c.s:
 	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/demo.c.s
 .PHONY : demo.c.s
 
+reuse_io_poll.o: reuse_io_poll.c.o
+
+.PHONY : reuse_io_poll.o
+
+# target to build an object file
+reuse_io_poll.c.o:
+	$(MAKE) -f CMakeFiles/reuse_io_poll.dir/build.make CMakeFiles/reuse_io_poll.dir/reuse_io_poll.c.o
+.PHONY : reuse_io_poll.c.o
+
+reuse_io_poll.i: reuse_io_poll.c.i
+
+.PHONY : reuse_io_poll.i
+
+# target to preprocess a source file
+reuse_io_poll.c.i:
+	$(MAKE) -f CMakeFiles/reuse_io_poll.dir/build.make CMakeFiles/reuse_io_poll.dir/reuse_io_poll.c.i
+.PHONY : reuse_io_poll.c.i
+
+reuse_io_poll.s: reuse_io_poll.c.s
+
+.PHONY : reuse_io_poll.s
+
+# target to generate assembly for a file
+reuse_io_poll.c.s:
+	$(MAKE) -f CMakeFiles/reuse_io_poll.dir/build.make CMakeFiles/reuse_io_poll.dir/reuse_io_poll.c.s
+.PHONY : reuse_io_poll.c.s
+
+reuse_io_select.o: reuse_io_select.c.o
+
+.PHONY : reuse_io_select.o
+
+# target to build an object file
+reuse_io_select.c.o:
+	$(MAKE) -f CMakeFiles/reuse_io_select.dir/build.make CMakeFiles/reuse_io_select.dir/reuse_io_select.c.o
+.PHONY : reuse_io_select.c.o
+
+reuse_io_select.i: reuse_io_select.c.i
+
+.PHONY : reuse_io_select.i
+
+# target to preprocess a source file
+reuse_io_select.c.i:
+	$(MAKE) -f CMakeFiles/reuse_io_select.dir/build.make CMakeFiles/reuse_io_select.dir/reuse_io_select.c.i
+.PHONY : reuse_io_select.c.i
+
+reuse_io_select.s: reuse_io_select.c.s
+
+.PHONY : reuse_io_select.s
+
+# target to generate assembly for a file
+reuse_io_select.c.s:
+	$(MAKE) -f CMakeFiles/reuse_io_select.dir/build.make CMakeFiles/reuse_io_select.dir/reuse_io_select.c.s
+.PHONY : reuse_io_select.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... asynchronous_communication"
+	@echo "... reuse_io_poll"
+	@echo "... reuse_io_select"
 	@echo "... edit_cache"
+	@echo "... concurrent_io_two_process"
 	@echo "... block_mouse"
 	@echo "... rebuild_cache"
 	@echo "... concurrent_io"
 	@echo "... demo"
 	@echo "... block_keyboard"
+	@echo "... asynchronous_communication.o"
+	@echo "... asynchronous_communication.i"
+	@echo "... asynchronous_communication.s"
 	@echo "... block_keyboard.o"
 	@echo "... block_keyboard.i"
 	@echo "... block_keyboard.s"
@@ -291,9 +458,18 @@ help:
 	@echo "... concurrent_io.o"
 	@echo "... concurrent_io.i"
 	@echo "... concurrent_io.s"
+	@echo "... concurrent_io_two_process.o"
+	@echo "... concurrent_io_two_process.i"
+	@echo "... concurrent_io_two_process.s"
 	@echo "... demo.o"
 	@echo "... demo.i"
 	@echo "... demo.s"
+	@echo "... reuse_io_poll.o"
+	@echo "... reuse_io_poll.i"
+	@echo "... reuse_io_poll.s"
+	@echo "... reuse_io_select.o"
+	@echo "... reuse_io_select.i"
+	@echo "... reuse_io_select.s"
 .PHONY : help
 
 

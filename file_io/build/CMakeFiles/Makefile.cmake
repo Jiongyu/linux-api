@@ -41,6 +41,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/asynchronous_communication.dir/DependInfo.cmake"
+  "CMakeFiles/reuse_io_poll.dir/DependInfo.cmake"
+  "CMakeFiles/reuse_io_select.dir/DependInfo.cmake"
+  "CMakeFiles/concurrent_io_two_process.dir/DependInfo.cmake"
   "CMakeFiles/block_mouse.dir/DependInfo.cmake"
   "CMakeFiles/concurrent_io.dir/DependInfo.cmake"
   "CMakeFiles/demo.dir/DependInfo.cmake"
