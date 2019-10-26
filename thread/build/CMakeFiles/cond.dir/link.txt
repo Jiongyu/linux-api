@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/cond.dir/cond.c.o  -o cond -rdynamic -lpthread 

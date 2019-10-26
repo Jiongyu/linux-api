@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tan/Documents/linux imbed/linux_api_test/thread/signal.c
+string.h
+-
+stdio.h
+-
+unistd.h
+-
+pthread.h
+-
+error.h
+-
+semaphore.h
+-
+

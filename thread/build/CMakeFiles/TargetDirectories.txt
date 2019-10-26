@@ -1,0 +1,6 @@
+/home/tan/Documents/linux imbed/linux_api_test/thread/build/CMakeFiles/rebuild_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/thread/build/CMakeFiles/edit_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/thread/build/CMakeFiles/mute_lock.dir
+/home/tan/Documents/linux imbed/linux_api_test/thread/build/CMakeFiles/creat_new.dir
+/home/tan/Documents/linux imbed/linux_api_test/thread/build/CMakeFiles/signal.dir
+/home/tan/Documents/linux imbed/linux_api_test/thread/build/CMakeFiles/cond.dir

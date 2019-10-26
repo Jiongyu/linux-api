@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/mute_lock.dir/mute_lock.c.o  -o mute_lock -rdynamic -lpthread 
