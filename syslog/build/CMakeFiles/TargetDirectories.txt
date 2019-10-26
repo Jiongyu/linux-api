@@ -1,0 +1,3 @@
+/home/tan/Documents/linux imbed/linux_api_test/syslog/build/CMakeFiles/edit_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/syslog/build/CMakeFiles/rebuild_cache.dir
+/home/tan/Documents/linux imbed/linux_api_test/syslog/build/CMakeFiles/log.dir
